@@ -1,0 +1,22 @@
+{
+  "name": "media-player",
+  "version": "1.0.0",
+  "description": "Media player para troubleshooting",
+  "license": "MIT",
+  "author": "jlockett",
+  "keywords": [
+    "javascript, mediaplayer"
+  ],
+  "main": "assets/index.js",
+  "scripts": {
+    "start": "parcel index.html ejercicios/*.html ejercicios/**/*.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^3.5.3"
+  },
+  "browserslist": [
+    "last 1 Firefox version"
+  ]
+}

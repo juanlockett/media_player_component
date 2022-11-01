@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Prototype</title>
+    </head>
+
+    <body>
+        <a href="/ejercicios/">Go back</a>
+        <p><em>Abre la consola</em></p>
+
+        <script>
+
+            function Hero(name, power){
+                this.name = name,
+                this.power = power
+            }
+
+            Hero.prototype.saludar = function () {
+                console.log(`Hola soy ${this.name} y mi poder es ${this.power}`)
+            }
+
+            thor = new Hero('Thor', 'truenos');
+            thor.saludar()
+
+            console.log(thor.toString)
+
+        </script>
+    </body>
+</html>
